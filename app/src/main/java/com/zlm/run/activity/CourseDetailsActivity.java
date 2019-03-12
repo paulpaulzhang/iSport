@@ -3,6 +3,7 @@ package com.zlm.run.activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.zlm.run.R;
 import com.zlm.run.tool.ResourcesUtils;
 
 import qiu.niorgai.StatusBarCompat;
@@ -19,9 +20,7 @@ public class CourseDetailsActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent = getIntent();
-        String id = intent.getStringExtra("res_id");
-        setContentView(ResourcesUtils.getLayoutId(this, id));
+        setContentView(R.layout.using);
         StatusBarCompat.translucentStatusBar(this);
     }
 }
