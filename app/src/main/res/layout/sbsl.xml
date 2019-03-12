@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="篮球三步上篮技巧攻略"
+            android:textSize="18sp" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="          篮球是目前比较普及的体育运动之一，本人非常喜欢打篮球。这项运动不仅能锻炼人的反应能力、协调力、灵敏度、思维敏捷力等，还能增进人与人之间的交流。其中有一项基本功，就是三步上篮，俗称“跑篮”。它是打篮球过程中必不可少的投篮得分技巧，想要掌握这个技巧其实不难，只要调整好步伐，找准时机，摆正姿势，看准篮筐，掌握投篮力度就可以了。下面简单说一下。"
+        android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sbsl01" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          1.练好三步上篮，调整好步伐是关键。三步，顾名思义，就是在三步之内完成投篮进球。因此，要调整好迈出的步伐大小，不能走着去上篮，而应在跑动中完成。对初学者慢跑最好，先练习慢动作。当准备三步上篮时，心中默念一步、二步，到三步时已经起跳了。步幅大小应和平常跑步大小一样，这样比较自然。当离着篮筐较远而开始三步上篮时，要把步幅迈大一些，否则第三步起跳会发现离篮筐很远，不容易将球投进。反之离篮筐很近了，要调小步伐，否则第三步跳起很可能跑到篮板后面。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sbsl02" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          2.找准时机上篮也很重要。练习三步上篮比较简单，但篮球毕竟是竞技比赛，时常要三五人一队来打比赛切磋。场上竞争很激烈，你想轻松进行三步上篮，必须找准时机。当对方防守松懈时，要看准空当，快速启动，闪电般杀到篮下进球得分。如果对方防守很严，不要硬闯，因为跑篮时容易撞上对方，裁判很可能判你带球撞人，当然，也有对方阻挡犯规这一可能。总而言之，尽量看准机会再上篮，以避免不必要的麻烦，提高成功率。平常多练练变相带球过人、突破等技巧，非常有助于实现三步上篮。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sbsl03" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          3.三步上篮时应注意摆正姿势。上篮之前，要把身体重心压低，运球不要超过腰部，身体要稳当，上身摆正。跑动中身体尽量前倾一些，手心向下拍打篮球，不要翻腕。到了第三步跳起时，手腕自然的把球拨出，尽量柔和一些，让篮球有回旋的余地。这样投篮命中率比较高。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          4.看准篮筐。三步上篮最后一步，也是最关键的一步就是投篮进球了。此时，要眼疾手快，看准篮筐的位置，重点是篮筐上方的小正方形区域。这块正方形区域是篮球比较理想的着落点，把球投到方框里面，进球几率非常大。特别是这方形区域的右上角和左上角附近，基本上篮球砸准了，反弹入筐几率百分百（前提应用力均匀）。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sbsl04" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          5.掌握好投篮力度。很多初学者在进行最后一步投篮时往往功败垂成，或者用尽过猛，球砸板飞走，或者力量不足，投球后刚蹭到篮网甚至三不沾。三步上篮的基础是练好投篮基本功，尤其是篮下投篮。投球时手劲要使用均匀，轻柔一些最好，手腕要灵活。第三步跳起投篮时，只要轻轻一拨，球就可自然打板入筐或空心入网。当有人防守时，不要害怕和着急，要稳定心态，手不要发抖，轻松投球进筐。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sbsl05" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="注意事项"
+        android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          ●三步上篮，前两步脚着地，第三步一定是跳起在半空了，如果多走一步视为走步违例。如下图跑篮时，地下只能留下两次脚印，第三步已经跳起投篮。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          ●看着有人在你前方站着不动，你不要硬闯过去三步上篮，把对方撞倒会判你带球撞人。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          ●上篮时可以用勾手投篮，是防止被盖帽的好方法。"
+            android:textSize="18sp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

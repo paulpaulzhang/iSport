@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 自定义dialog -->
+    <style name="pop_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+    <style name="loading_pop_anim_style">
+        <item name="android:windowEnterAnimation">@anim/loading_pop_in</item>
+        <item name="android:windowExitAnimation">@anim/loading_pop_out</item>
+    </style>
+
+    <style name="Dialog_Theme" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Matisse.Zhihu.Custom" parent="Matisse.Zhihu">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="toolbar">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottomToolbar.apply.textColor">@color/colorAccent</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/colorAccent</item>
+        <item name="item.checkCircle.backgroundColor">@color/colorAccent</item>
+    </style>
+
+</resources>

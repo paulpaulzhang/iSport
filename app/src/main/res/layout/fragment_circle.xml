@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".fragment.CircleFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_circle"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways|snap" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rl_circle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/round_create_white_24"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorPrimary"
+        app:fab_colorRipple="@color/colorAccent"
+        app:fab_shadow="true"
+        app:fab_type="normal" />
+
+    <ImageView
+        android:id="@+id/iv_circle_top"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_circle_image_view"
+        android:src="@drawable/round_expand_less_white_24dp"
+        android:visibility="invisible" />
+
+</android.support.design.widget.CoordinatorLayout>

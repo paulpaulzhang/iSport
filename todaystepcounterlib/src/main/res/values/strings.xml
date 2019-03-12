@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TodayStepCounterLib</string>
+    <string name="title_notification_bar">RUN</string>
+    <string name="content_notification_bar">Running…</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity"
+    android:background="@drawable/img_bg">
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_marginTop="90dp"
+        android:id="@+id/register_dialog_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:indicator="BallTrianglePath"
+        app:indicator_color="@color/colorAccent" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/register_et_username"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/username"
+        android:textSize="25sp" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/register_et_nickname"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nickname"
+        android:textSize="25sp" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/register_et_password"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="@dimen/common_button_width"
+        android:layout_height="@dimen/common_button_height"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_style"
+        android:text="@string/register"
+        android:textColor="@color/commonBtnColor"
+        android:textSize="18sp" />
+
+</LinearLayout>

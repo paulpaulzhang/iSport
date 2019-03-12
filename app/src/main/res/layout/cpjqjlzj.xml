@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="跑步是很锻炼人的运动，而长跑更是考验选手综合实力的时候。"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/cpjqjlzj01" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="1.跑前准备："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="          合适的鞋子，运动服，会让选手拥有更好的竞争力。挑选自己平时运动习惯穿的鞋子，会比较适应，不会产生需要磨合的情况。检查好要穿的东西。有没有什么问题。衣服会不会太紧，鞋子会不会太松。"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/cpjqjlzj02" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="2.匀速："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="          最开始的速度。很多选手想争夺前几名在刚跑的时候，盲目的加速会浪费身体的能量。此时，保持匀速。不让自己落在最后也不要太往前抢。在队伍的中间就可以。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="3.呼吸："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="          适当的调整自己的呼吸。尽量保持均衡的呼吸速度，不要频频转换。有的时候会增加身体的负担。跑前放松好自己的身体，自己的思想，那么呼吸会很容易。很紧张的话，需要想想开心的事情。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="4.水："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="          长跑会很容易产生缺水现象。跑到一定的时候，身体就会很累很渴，这就是长跑的难点。跑前可以喝少量的水，太多的水，会让肚子胀胀的不舒服。"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="5.跑步的幅度："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="找到自己最适合的幅度。太大的幅度会让身体很累，所以找到适合你的幅度，让身体减轻负担。尽量不做大幅度的运动，除非到最后冲刺阶段。"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/cpjqjlzj03" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="6.最后的冲刺："
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="          坚持跑下去。身体在最后会是最累的时候，考验耐力就是这里了。坚持跑完，如果还有力气的话一定要调整利用好自己的力气，在最后给自己一个争夺的机会。"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/cpjqjlzj04" />
+
+
+    </LinearLayout>
+</ScrollView>

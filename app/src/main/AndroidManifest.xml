@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zlm.run">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="IOh78GbDskT4zO0CRO06oIVN7DTTesfk" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.GuideActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.ForgetPasswordActivity" />
+        <activity
+            android:name=".activity.UserDataActivity"
+            android:label="@string/change_data" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".activity.WalkActivity" />
+        <activity android:name=".activity.IndoorRunningActivity" />
+        <activity android:name=".activity.RidingActivity" />
+        <activity android:name=".activity.OutdoorRunningActivity" />
+        <activity
+            android:name=".activity.RunActivity"
+            android:label="@string/running" />
+        <activity
+            android:name=".activity.CreateActivity"
+            android:label="@string/publish_dynamic" />
+        <activity android:name=".activity.YogaActivity" />
+        <activity
+            android:name=".activity.ImageActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:label="@string/setting" />
+        <activity android:name=".activity.ArticleDetailsActivity" />
+
+        <service
+            android:name=".service.AlarmService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="TIMER_ACTION" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <receiver
+            android:name=".receiver.AlarmReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="TIMER_ACTION" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.WebActivity">
+            <intent-filter>
+                <action android:name="com.zlm.run.ACTION_WEB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BaiduActivity" />
+        <activity
+            android:name=".activity.AssignmentActivity"
+            android:label="@string/list" />
+        <activity
+            android:name=".activity.EditActivity"
+            android:label="@string/edit" />
+        <activity
+            android:name=".activity.CourseActivity"
+            android:label="@string/course_center" />
+        <activity
+            android:name=".activity.YogaSportsActivity"
+            android:label="@string/yoga" />
+        <activity
+            android:name=".activity.HotSportsActivity"
+            android:label="@string/hot_sports" />
+        <activity
+            android:name=".activity.DumbbellSportsActivity"
+            android:label="@string/dumbbell" />
+        <activity
+            android:name=".activity.BasketballSportsActivity"
+            android:label="@string/basketball" />
+        <activity
+            android:name=".activity.TaekwondoSportsActivity"
+            android:label="@string/taekwondo" />
+        <activity
+            android:name=".activity.RunSportsActivity"
+            android:label="@string/run" />
+        <activity
+            android:name=".activity.BodySportsActivity"
+            android:label="@string/devil_body">
+
+        </activity>
+        <activity android:name=".activity.CourseDetailsActivity" />
+    </application>
+
+</manifest>

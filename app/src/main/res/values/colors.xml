@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9800</color>
+    <color name="colorPrimaryDark">#ff9800</color>
+    <color name="colorAccent">#ff7043</color>
+
+    <color name="background">#f2f6f9</color>
+
+    <color name="translucent">#7FF8F8FF</color>
+
+    <color name="tabTextColor">#546e7a</color>
+
+    <color name="runningButtonColor">#f44336</color>
+
+    <color name="targetTVColor">#f5f5f5</color>
+
+    <color name="commonBtnColor">#ff7043</color>
+
+    <color name="data_run_color">#e53935</color>
+    <color name="data_ride_color">#fb8c00</color>
+    <color name="data_walk_color">#4caf50</color>
+
+    <color name="text_color">#434343</color>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="8dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/author_avatar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:src="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <com.ctetin.expandabletextviewlibrary.ExpandableTextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="6dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                app:ep_contract_color="@color/colorAccent"
+                app:ep_contract_text="@string/withdraw"
+                app:ep_expand_color="@color/colorAccent"
+                app:ep_expand_text="@string/look_more"
+                app:ep_link_color="@color/colorAccent"
+                app:ep_max_line="6"
+                app:ep_need_animation="true"
+                app:ep_need_contract="true"
+                app:ep_need_expand="true"
+                app:ep_need_link="true"
+                app:ep_need_mention="true" />
+
+            <ImageView
+                android:id="@+id/content_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/place_holder" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

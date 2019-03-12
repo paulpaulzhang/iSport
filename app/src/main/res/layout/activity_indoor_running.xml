@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.IndoorRunningActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_indoor_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/_0_00"
+            android:textColor="@android:color/black"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/distance_km"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_km" />
+
+        <TextView
+            android:id="@+id/tv_indoor_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/_0_00"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_km" />
+
+        <TextView
+            android:id="@+id/tv_indoor_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="@string/_00"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_km" />
+
+        <TextView
+            android:id="@+id/tv_indoor_calorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/_0"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_km" />
+
+        <TextView
+            android:id="@+id/tv_speed_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/km_h_china"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_speed" />
+
+        <TextView
+            android:id="@+id/tv_time_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/min_china"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_time" />
+
+        <TextView
+            android:id="@+id/tv_calorie_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/Kcal"
+            android:textSize="12sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_indoor_calorie" />
+
+        <ImageButton
+            android:id="@+id/ib_indoor_pause"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_run"
+            android:src="@drawable/round_pause_white_48dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_time_tip" />
+
+        <ImageButton
+            android:id="@+id/ib_indoor_start"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_run"
+            android:src="@drawable/round_play_arrow_white_48dp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/ib_indoor_finish"
+            app:layout_constraintTop_toBottomOf="@id/tv_time_tip" />
+
+        <ImageButton
+            android:id="@+id/ib_indoor_finish"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_run"
+            android:src="@drawable/round_crop_square_white_48dp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toRightOf="@id/ib_indoor_start"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_time_tip" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/iv_go"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_go" />
+
+    <ImageView
+        android:id="@+id/iv_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_one" />
+
+    <ImageView
+        android:id="@+id/iv_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_two" />
+
+    <ImageView
+        android:id="@+id/iv_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_three" />
+</FrameLayout>

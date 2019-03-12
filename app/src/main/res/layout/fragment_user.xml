@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:don="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/user_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:fitsSystemWindows="true"
+            android:paddingBottom="10dp"
+            tools:context=".fragment.UserFragment">
+
+            <LinearLayout
+                android:id="@+id/user_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/user_avatar"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_nick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="17dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:gravity="bottom">
+
+                        <ImageView
+                            android:id="@+id/user_gender"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+
+                        <TextView
+                            android:id="@+id/sports_energy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/bg_tv_energy"
+                            android:paddingBottom="2dp"
+                            android:paddingEnd="5dp"
+                            android:paddingStart="5dp"
+                            android:paddingTop="2dp"
+                            android:textColor="@android:color/white"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/user_talking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/user_layout" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/my_data"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view_data"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_marginTop="40dp"
+                android:background="@android:color/darker_gray"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.don.pieviewlibrary.AnimationPercentPieView
+                android:id="@+id/pv_calorie"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                don:centerTextColor="@android:color/black"
+                don:centerTextSize="14sp"
+                don:circleWidth="30dp"
+                don:dataTextColor="#ffffff"
+                don:dataTextSize="10sp" />
+
+            <com.don.pieviewlibrary.LinePieView
+                android:id="@+id/pv_kilometer"
+                android:layout_width="186dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pv_calorie"
+                don:centerTextColor="@android:color/black"
+                don:centerTextSize="10sp"
+                don:circleWidth="30dp"
+                don:dataTextColor="#000000"
+                don:dataTextSize="10sp" />
+
+            <ImageView
+                android:id="@+id/iv_run"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="104dp"
+                android:src="@drawable/data_run_circle"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_run_kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_ride"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/data_ride_circle"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toBottomOf="@id/tv_run_kcal" />
+
+            <TextView
+                android:id="@+id/tv_ride_kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toBottomOf="@id/tv_run_kcal" />
+
+            <ImageView
+                android:id="@+id/iv_walk"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/data_walk_circle"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toBottomOf="@id/tv_ride_kcal" />
+
+            <TextView
+                android:id="@+id/tv_walk_kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@id/pv_calorie"
+                app:layout_constraintTop_toBottomOf="@id/tv_ride_kcal" />
+
+            <TextView
+                android:id="@+id/tv_walk_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pv_calorie" />
+
+            <TextView
+                android:id="@+id/tv_yoga_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_walk_number" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/setting"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginEnd="26dp"
+                android:src="@drawable/outline_navigate_next_black_36dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
+

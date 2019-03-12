@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="跑步,应该是这姿势!"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs01" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          说起跑步,人们都觉得这还不简单,不就撒开脚丫使劲跑吗?其实不然,正确的跑步很有讲究,绝对不像人们想像得那样简单。今天我们就来讲一讲正确的跑步姿势。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs02" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="1.脚的着地方式"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          有些人认为跑步时用前掌着地，也有人认为应该足跟着地。我们建议先以用中间部分接触地面。研究表明一名好的长距离跑者通常是以足中着地的。慢跑者以足中和脚跟着地，快跑者的着地点比慢跑者靠前。我们认为只有短跑选手和中短跑选手适合以前脚掌着地。可能有些人会例外，但是以足中着地对初中级跑步者是个好的方式。这样可以减少震动，缓解对小腿肌肉和足腱的压力，同时为下一个迈步做好准备。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs03" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="3.手臂的姿势"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          这个姿势是在你没有使用慢跑婴儿推车，而是可以摆动双臂。首先，最重要的是不要僵直手臂，紧握拳头，完全弯曲肘部。保持放松。将手臂自然弯曲在腰线以上，不要太高或太低。两个手臂前后交替摆动，使腿部相应反方向运动。短跑选手在跑道上奔跑时手臂是完全前后摆动的，很多长距离跑步者略带弧度地摆动，但优秀的跑者不会把力气用在摆动胳膊上。换句话说，不要激烈地摆动手臂。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs04" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="4.步长"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          很多长距离跑步者最大的问题就是步长过大。千万不要这样做，它将导致很多伤害，包括足腱，髂胫束疼痛和髂腰肌疼痛。这种疼痛并不是来自膝盖，而是来自韧带，是从臀部外侧往下一直到胫骨的一条韧带。这条韧带靠近膝盖的地方变窄，并在运膝盖弯曲时会与摩擦胫骨靠近膝盖的最上端。长期的摩擦会导致发炎。40%的跑步者会在开始跑步5年或更多时间后遭遇髂胫束综合症"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs04" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="5.呼吸"
+            android:textSize="18sp" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="当有些人建议你如何计算呼和吸的时间时，我们告诉你只要保持深度的和规则的呼吸。很多时候呼吸会自己调节，跑得快了，呼吸也就快了。确实如此，大多数跑步者用口呼吸或口鼻同时呼吸，仅用鼻子呼吸是不可能吸入足够多的氧气的。"
+        android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ypyqsdpbzs05" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="6.上坡和下坡"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          在上坡时放慢速度，总的来说上坡时加快速度不是个好主意。加快摆动手臂，想象你在把自己往上推。加快步频，想象火车爬上山坡的情景，不断为自己鼓劲“我可以做到“。谨慎下坡，放慢速度。下坡时膝盖的风险最大。你的四头肌起到制动的作用，如果重视不够将会使它过度“劳累“。在比赛时，可以身体略微前倾，冲下前去，但不是用在训练时。事实上，在有山丘的跑步训练中，很多人步行下坡作为恢复，为下一个上坡作准备。这是个休息的好办法，同时避免下坡时对膝盖产生的过多压力。"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+package com.zlm.run.tool;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.Priority;
+import com.bumptech.glide.request.RequestOptions;
+import com.zhihu.matisse.engine.ImageEngine;
+
+/**
+ * 项目名：   Run
+ * 包名：     com.zlm.run.tool
+ * 文件名：   Glide4Engine
+ * 创建者：   PaulZhang
+ * 创建时间： 2018/9/11 19:04
+ * 描述：     TODO
+ */
+public class Glide4Engine implements ImageEngine {
+
+    @Override
+    public void loadThumbnail(Context context, int resize, Drawable placeholder, ImageView imageView, Uri uri) {
+        Glide.with(context)
+                .asBitmap() // some .jpeg files are actually gif
+                .load(uri)
+                .apply(new RequestOptions()
+                        .override(resize, resize)
+                        .placeholder(placeholder)
+                        .centerCrop())
+                .into(imageView);
+    }
+
+    @Override
+    public void loadGifThumbnail(Context context, int resize, Drawable placeholder, ImageView imageView,
+                                 Uri uri) {
+        Glide.with(context)
+                .asBitmap() // some .jpeg files are actually gif
+                .load(uri)
+                .apply(new RequestOptions()
+                        .override(resize, resize)
+                        .placeholder(placeholder)
+                        .centerCrop())
+                .into(imageView);
+    }
+
+    @Override
+    public void loadImage(Context context, int resizeX, int resizeY, ImageView imageView, Uri uri) {
+        Glide.with(context)
+                .load(uri)
+                .apply(new RequestOptions()
+                        .override(resizeX, resizeY)
+                        .priority(Priority.HIGH)
+                        .fitCenter())
+                .into(imageView);
+    }
+
+    @Override
+    public void loadGifImage(Context context, int resizeX, int resizeY, ImageView imageView, Uri uri) {
+        Glide.with(context)
+                .asGif()
+                .load(uri)
+                .apply(new RequestOptions()
+                        .override(resizeX, resizeY)
+                        .priority(Priority.HIGH)
+                        .fitCenter())
+                .into(imageView);
+    }
+    
+
+    @Override
+    public boolean supportAnimatedGif() {
+        return true;
+    }
+
+}

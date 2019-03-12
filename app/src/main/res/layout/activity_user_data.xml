@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UserDataActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/data_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/data_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:text="@string/avatar"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/data_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/username"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_nickname_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/nickname"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_nickname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_birthday_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/birthday"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_birthday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_gender_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/gender"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_weight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/weight"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_weight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_height_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/height"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_height"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/data_talking_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:paddingStart="20sp"
+            android:text="@string/talking"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/data_talking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

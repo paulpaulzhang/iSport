@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="一个良好的生活习惯非常重要少肚子上赘肉"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nsfbjfjc04" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          男人，尤其是人到中年，大腹便便就是形容中年男子的，有一个大肚子，腹部有赘肉，这明显不太好，是一种不健康的表现，那么想减掉肚子上的肥肉，有什么办法呢？"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="一：养成良好的生活习惯"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nsfbjfjc03" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="          1.一个良好的生活习惯非常重要，有良好习惯的男士很少肚子上赘肉明显，只有经常生活作息不规律、爱喝酒、应酬太多、吃饭随意、运动少的人才会赘肉明显。几乎每一个肥胖尤其是腹部赘肉比较多的男士都有上述问题的发生，生活习惯不好。"
+        android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          2.改变生活习惯，坚持下去，即便是不运动，可随着时间的推移，肚子上的赘肉也会慢慢消下去。例如，养成一个良好的睡眠习惯，不熬夜，休息时间充分；一天三顿饭，每餐七八分饱，不暴饮暴食，不吃太多油腻性食物等。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nsfbjfjc02" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          3.运动是减肥的最好方法，不是最有效的，但一定是最好的。长期坚持运动，即便是没瘦多少斤，可身材会变好，肚腩会变小，肥肉变成瘦肉、精肉，自然腹部就显得没那么“鼓”了。"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/nsfbjfjc01" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          4.上下班的时候，可以多走几步，能不乘车就不乘车，能走就走，在办公室里，干会活有些疲惫的感觉的时候不要硬干，走动一下，去上趟厕所也是好的，借助零散时间多走动，对于减肥很有帮助。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          5.回家的时候，尤其是家住在六七楼的用户，这点路程不应该做电梯，走楼梯不是一件更好的事情吗？全身上下都可以得到有效的锻炼，走楼梯确实是一件消耗很大的运动方式。"
+            android:textSize="18sp" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="          6.水是生命之源，虽然不能直接减肥，但多喝水确实有助于减肥。比如饭前多喝点水，可以让你在吃饭的时候少吃一些事物，不用吃那么多；比如说工作学习的时候多喝水，自然会想去厕所，自然需要你的走动，变相的多运动运动了。"
+        android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          7.食肉过多尤其是肥肉容易导致脂肪过多、体重上升，腹部的赘肉堆积，而且对健康也有坏处，适当的吃些肉是好事，但吃得过多就是一件坏事了。那多吃蔬菜水果对减肥是有帮助的，蔬菜水果中的粗纤维可促进肠胃蠕动，增加体内毒素的排除，加快新陈代谢，因此，果蔬是减肥者的最佳选择。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="          8.专门的腹部锻炼更有助于腹部减肥，运动更强调的是一个整体，而专门的腹部运动强调的更多是腹部这个局部。比如说仰卧起坐，肚腩大的人在运动的时候，只有做的标准，效果才更好，真做标准了，可能十个就能让你气喘吁吁，直呼受不了。"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

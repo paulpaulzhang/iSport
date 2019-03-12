@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="跆拳道练习的要诀"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="练习跆拳道需要科学的方法，不是单纯地努力就能提高技术和发挥力量的。当然，得到优秀师范的指导能事半功倍，迅速提高技术。下面是为了有效地练习跆拳道需要掌握的要诀。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 1. 要彻底研究和掌握力学的原理。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 2. 要透彻地掌握各种动作的目的。"
+            android:textSize="18sp" />
+        <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="- 3. 视线和呼吸以及手脚的动作要同时进行。"
+        android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 4. 要正确选择攻击的部位，即要害部位。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 5. 防守和攻击时要保持正确的角度和距离。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 6. 进行动作时要适度地弯曲和伸直膝关节和肘关节。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 7. 除了特殊情况之外，任何动作要运用反作用力的拉动。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 8. 一旦开始进行动作决不能中途停止。"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 9. 所有的移动要按正弦曲线进行，要灵活运用膝关节。 "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="- 10. 除了连续的动作之外，完成每个动作的瞬间要瞬时呼气。"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

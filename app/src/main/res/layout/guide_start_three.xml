@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_guide_three" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/bg_btn_enter"
+        android:text="@string/run_GO"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</FrameLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.CourseActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|enterAlways">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hot_title"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tb_course"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_hot"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hot_sport"
+                    android:gravity="center"
+                    android:text="@string/hot_sports"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_yoga"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/cv_basketball"
+                app:layout_constraintTop_toBottomOf="@id/cv_hot">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yoga_sport"
+                    android:gravity="center"
+                    android:text="@string/yoga"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_basketball"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toRightOf="@id/cv_yoga"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cv_hot">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/basketball_sport"
+                    android:gravity="center"
+                    android:text="@string/basketball"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_dumbbell"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/cv_taekwondo"
+                app:layout_constraintTop_toBottomOf="@id/cv_yoga">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yl_sport"
+                    android:gravity="center"
+                    android:text="@string/dumbbell"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_taekwondo"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toRightOf="@id/cv_dumbbell"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cv_basketball">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tqd_sport"
+                    android:gravity="center"
+                    android:text="@string/taekwondo"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_run"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/cv_body"
+                app:layout_constraintTop_toBottomOf="@id/cv_dumbbell">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/run_sport"
+                    android:gravity="center"
+                    android:text="@string/run"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_body"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="5dp"
+                app:layout_constraintLeft_toRightOf="@id/cv_run"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cv_taekwondo">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/body_sport"
+                    android:gravity="center"
+                    android:text="@string/devil_body"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

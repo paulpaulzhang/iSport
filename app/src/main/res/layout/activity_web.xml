@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WebActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            app:title="@string/scan"
+            android:id="@+id/tb_web"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <WebView
+        android:id="@+id/wv_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <ProgressBar
+        android:id="@+id/pb_web"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>
